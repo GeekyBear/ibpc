@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 60px 230px;
+  align-items: center;
+}
+
+.paragraph {
+  color: #161722;
+  padding-bottom: 32px;
+}
+
+.container button {
+  margin-bottom: 48px;
+}
+
+.photoHolder {
+  display: flex;
+  justify-content: center;
+}
+
+.photoHolder img {
+  padding: 0px 12px;
+}
+
+.lowerInfo {
+  padding-top: 64px;
+  width: 512px;
+}
+
+.container div p {
+  color: #161722;
+}
+
+.seeMore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.arrow {
+  width: 18px;
+  height: 10px;
+}

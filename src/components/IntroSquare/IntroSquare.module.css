@@ -1,0 +1,21 @@
+.container {
+  max-width: 410px;
+  min-width: 250px;
+  padding: 80px;
+  background-color: #fff5eb;
+  text-align: left;
+}
+
+.paragraph {
+  color: var(--black, #161722);
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+}
+
+.bottomline {
+  height: 16px;
+  background-color: #ffd2a4;
+}

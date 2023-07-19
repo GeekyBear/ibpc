@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  height: 70vh;
+  padding: 0px 110px;
+  background: url("../../assets/images/woman-praying.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.holder {
+  flex: 0.5;
+  padding: 128px 0px;
+}
+
+.holder h5 {
+  margin: 0px;
+  padding: 0px;
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.holder button p {
+  color: black;
+}
