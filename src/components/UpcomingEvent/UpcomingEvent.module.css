@@ -4,6 +4,7 @@
   flex-direction: column;
   height: 512px;
 }
+
 .event {
   display: flex;
   flex-direction: row;
@@ -19,6 +20,7 @@
   background: url("../../assets/images/girl-reading.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
   flex: 2;
 }
 
@@ -64,4 +66,41 @@
 .arrow {
   width: 20px;
   height: 14px;
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    padding: 0px 100px 90px;
+  }
+
+  .messages {
+    justify-content: unset;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0px 82px 72px;
+  }
+
+  .info {
+    flex: 1;
+  }
+
+  .photo {
+    flex: 1;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo {
+    display: none;
+  }
 }
