@@ -1,14 +1,34 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Home from "./screens/Home/Home";
+import About from "./screens/About/About";
+import Sermons from "./screens/Sermons/Sermons";
+import Blog from "./screens/Blog/Blog";
+import BlogPost from "./screens/BlogPost/BlogPost";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Home />,
+  },
+  {
+    path: "/about",
+    element: <About />,
+  },
+  {
+    path: "/sermons",
+    element: <Sermons />,
+  },
+  {
+    path: "/blog",
+    element: <Blog />,
+  },
+  {
+    path: "/blog/:id",
+    element: <BlogPost />,
   },
 ]);
 

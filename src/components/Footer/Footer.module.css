@@ -11,6 +11,10 @@
   flex: 4;
 }
 
+.info p {
+  color: #fff;
+}
+
 .quicklinks {
   display: flex;
   flex-direction: column;
@@ -37,6 +41,9 @@
 
 .connect {
   flex: 2;
+}
+.connect p {
+  color: #fff;
 }
 
 .connect div {

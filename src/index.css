@@ -52,9 +52,22 @@ h4 {
   text-transform: uppercase;
 }
 
+h5 {
+  margin: 0px;
+  color: var(--black, #161722);
+  /* Heading h5 */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+
 /* Paragraph */
 p {
-  color: #fff;
+  color: var(--black, #161722);
+  margin: 0px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -63,6 +76,7 @@ p {
 
 /* Label 02 */
 label {
+  margin: 0px;
   color: var(--black, #161722);
   text-align: center;
   font-size: 16px;
@@ -70,4 +84,41 @@ label {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.cap03 {
+  /* Cap 03 */
+  background: -webkit-linear-gradient(#dc9853 0%, #a54e2b 100%);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

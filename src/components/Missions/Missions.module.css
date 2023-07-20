@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0px 110px;
+  background-color: rebeccapurple;
+  height: 60vh;
+  background: url("../../assets/images/facade.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.decorativeLine {
+  width: 45vw;
+  height: 16px;
+  background-color: #ffd2a4;
+}

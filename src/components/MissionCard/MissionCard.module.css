@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  width: 45vw;
+  background-color: #fff;
+}
+
+.info {
+  flex: 2;
+  padding: 72px;
+}
+
+.info h2 {
+  text-align: left;
+}
+
+.paragraph {
+  padding-bottom: 16px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  padding-right: 48px;
+}

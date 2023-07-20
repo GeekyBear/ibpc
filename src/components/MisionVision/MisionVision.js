@@ -20,15 +20,21 @@ export default function MisionVision() {
         <NavButton title={"leer más"} />
       </div>
       <div className={styles.photoHolder}>
-        <Photo
-          position={"-64px"}
-          path={require("../../assets/images/bearded-man-praying.png")}
-        />
-        <Photo path={require("../../assets/images/man-woman-reading.png")} />
-        <Photo
-          position={"-64px"}
-          path={require("../../assets/images/woman-imposing-hands.png")}
-        />
+        <div className={styles.hiddenPhoto}>
+          <Photo
+            position={"-64px"}
+            path={require("../../assets/images/bearded-man-praying.png")}
+          />
+        </div>
+        <div>
+          <Photo path={require("../../assets/images/man-woman-reading.png")} />
+        </div>
+        <div className={styles.hiddenPhoto}>
+          <Photo
+            position={"-64px"}
+            path={require("../../assets/images/woman-imposing-hands.png")}
+          />
+        </div>
       </div>
       <div className={styles.lowerInfo}>
         <label>Nuestra misión & visión</label>

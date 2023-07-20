@@ -1,9 +1,9 @@
 import React from "react";
-import "./NavButton.css";
+import styles from "./NavButton.module.css";
 
 export default function NavButton({ title }) {
   return (
-    <button className="contact-button">
+    <button className={styles.contactButton}>
       <p>{title}</p>
     </button>
   );

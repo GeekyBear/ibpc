@@ -3,7 +3,6 @@
   flex-direction: row;
   background-color: #0d0d0d;
   color: white;
-  padding: 0px 110px;
 }
 
 .logo {
@@ -48,4 +47,5 @@
   margin-top: 12px;
   margin-bottom: 12px;
   margin-right: 110px;
+  padding: 20px 48px;
 }

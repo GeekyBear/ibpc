@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0px 60px;
+  }
+
+  .container img {
+    width: 80vw;
+    height: 30vh;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0px 42px;
+  }
+}
