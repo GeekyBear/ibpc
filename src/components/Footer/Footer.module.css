@@ -85,3 +85,54 @@
   outline: none;
   width: 512px;
 }
+
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    flex-direction: column-reverse;
+    padding: 64px 90px;
+  }
+
+  .suscribe {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-self: center;
+    width: 75vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 50vw;
+  }
+
+  .connect {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .quicklinks {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 64px 50px;
+  }
+
+  .input {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 75vw;
+  }
+}

@@ -16,3 +16,29 @@
   justify-content: center;
   gap: 24px;
 }
+
+@media screen and (max-width: 1600px) {
+  .sectionCards {
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+    flex: 1;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 64px 70px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 64px 50px;
+  }
+}

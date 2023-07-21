@@ -2,9 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  padding: 0px 110px;
+  padding: 40px 110px;
   background-color: rebeccapurple;
-  height: 60vh;
   background: url("../../assets/images/facade.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +12,25 @@
 }
 
 .decorativeLine {
-  width: 45vw;
+  width: 55vw;
   height: 16px;
   background-color: #ffd2a4;
+}
+
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 20px;
+  }
+  .decorativeLine {
+    width: 85vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 20px;
+  }
 }

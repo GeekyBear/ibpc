@@ -30,7 +30,7 @@ export default function Footer({ title }) {
       </div>
       <div className={styles.connect}>
         <h3>Connect</h3>
-        <div>
+        <div className={styles.socials}>
           <p>Fa</p>
           <p>Tw</p>
           <p>Ld</p>
