@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  width: 45vw;
+  width: 55vw;
   background-color: #fff;
 }
 
@@ -23,4 +23,19 @@
   justify-content: flex-end;
   flex: 1;
   padding-right: 48px;
+}
+
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 85vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .image {
+    display: none;
+  }
 }
